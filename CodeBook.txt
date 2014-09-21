@@ -1,0 +1,32 @@
+Variable dictionary for analysis of UCI HAR Dataset 
+
+Participant
+        Unique identification number, range 1-30
+
+Activity
+        Laying
+        Sitting
+        Standing
+        Walking
+        Walking_downstairs
+        Walking_upstairs
+
+Columns 3:82 represent mean or standard deviation calculations from accelerometer and gyroscope measurements (some in 3 planes [X, Y, Z] for each, for more information, please see features_info.txt in UCI HAR Dataset folder):
+        
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag

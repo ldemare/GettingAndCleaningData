@@ -54,7 +54,7 @@ detach(DT_withActivity)
 
 #remove redundant columns used for join and rename columns
 aggdata$Numerical_label <-NULL
-tidy_data2 <- rename(aggdata, c("Group.1" = "Activity", "Group.2" = "Participant"))
+tidy_data2 <- rename(aggdata, c("Group.1" = "Participant", "Group.2" = "Activity"))
 
 #write out second tidy data table with means
 write.table(tidy_data2, file = "./tidyData_means.txt", row.names = FALSE)
